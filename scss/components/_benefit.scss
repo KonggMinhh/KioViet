@@ -1,0 +1,29 @@
+.benefit {
+    padding: 94px 99px;
+    &__list {
+        column-gap: 32px;
+    }
+    &-item__icon {
+        width: 72px;
+        height: 72px;
+        border-radius: 999px;
+        background-color: rgba($green, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    &-item:nth-child(2) .benefit-item__icon {
+        background-color: rgba($yellow, 0.1);
+    }
+    &-item:last-child .benefit-item__icon {
+        background-color: rgba($cyan, 0.1);
+    }
+    &-item__heading {
+        margin: 16px 0 8px 0;
+        font-size: 1.8rem;
+    }
+    &-item__desc {
+        font-size: 1.5rem;
+    }
+}
