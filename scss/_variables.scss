@@ -1,0 +1,158 @@
+// My themes
+$white: #ffffff;
+$gray-100: #002146;
+$gray-200: #335479;
+$gray-300: #667f9a;
+$gray-400: #99a9bc;
+$gray-500: #ccd4dd;
+$gray-600: #e5e9ee;
+$gray-700: #f2f4f6;
+
+$green: #00b63e;
+$blue: #0070f4;
+$yellow: #ffa930;
+$black: #002146;
+$red: #ed2e67;
+$cyan: #0066ff;
+$dodgerBlue: #1890ff;
+$pumpkin: #ff9900;
+
+// Color other
+$greenWhite1: #f2f4ef;
+$greenWhite2: #e5eee2;
+$greenWhite3: #cce3ca;
+$greenWhite4: #79b873;
+
+$blueWhite1: #eef6fc;
+$blueWhite2: #ddecf8;
+$blueWhite3: #a8cbe6;
+$blueWhit4: #60a0d2;
+
+$pinkWhite1: #fff3f1;
+$pinkWhite2: #ffe2df;
+$pinkWhite3: #ffe2df;
+$pinkWhite4: #fd7464;
+
+$yellowWhite1: #fff9ee;
+$yellowWhite2: #fff5e1;
+$yellowWhite3: #fae5bc;
+$yellowWhite4: #f6ab3a;
+
+$grayWhite1: #f3f5f6;
+$grayWhite2: #e7ebee;
+$grayWhite3: #d9dcde;
+$grayWhite4: #9aa4ab;
+
+$grayWhite1: #ffebf7;
+$grayWhite2: #ffc2e7;
+$grayWhite3: #ff85ce;
+$grayWhite4: #ff0099;
+
+$primary: $green;
+$secondary: $blue;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+);
+// Border
+$border-color: $green;
+$border-radius: 36px;
+$btn-border-radius-sm: 36px;
+
+// font size
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 4.8;
+$h2-font-size: $font-size-base * 4;
+$h3-font-size: $font-size-base * 3;
+$h4-font-size: $font-size-base * 2.2;
+$h5-font-size: $font-size-base * 1.8;
+$h6-font-size: $font-size-base * 1.5;
+$font-weight-extrabold: 800;
+$font-size-sm: $font-size-base * 1.5;
+$font-size-lg: $font-size-base * 1.5;
+
+$dodgerBlue-text: $dodgerBlue;
+$dodgerBlue-text-emphasis: $dodgerBlue;
+
+// btn color
+$btn-link-hover-color: $green;
+$btn-link-color: $green;
+$btn-link-hover-color: $green;
+$btn-link-disabled-color: $green;
+
+// btn
+$input-btn-padding-y: 6.5px;
+$input-btn-padding-x: 16px;
+$input-btn-padding-y-sm: 0.65rem;
+$input-btn-padding-x-sm: 1.6rem;
+$btn-border-width: 2px;
+$input-btn-border-width: 1.5px;
+
+$body-color: $white;
+
+// btn-font
+$btn-font-size-sm: $font-size-base * 1.5;
+// $btn-font-size-lg: $input-btn-font-size-lg !default;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Inter", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.btn-primary {
+    background-color: #00b63e;
+    color: #fff;
+}
+
+.btn-primary:not(:disabled):hover,
+.btn-primary:not(:disabled).hover,
+.btn-primary:not(:disabled):focus,
+.btn-primary:not(:disabled).focus,
+.btn-primary:not(:disabled):active,
+.btn-primary:not(:disabled).active,
+.btn-primary:not(.disabled):hover,
+.btn-primary:not(.disabled).hover,
+.btn-primary:not(.disabled):focus,
+.btn-primary:not(.disabled).focus,
+.btn-primary:not(.disabled):active,
+.btn-primary:not(.disabled).active {
+    background-color: #008e30;
+    border-color: #008e30;
+    color: #fff;
+}
+
+.btn-outline-primary {
+    background-color: #fff;
+}
+
+.btn-outline-primary:not(:disabled):hover,
+.btn-outline-primary:not(:disabled).hover,
+.btn-outline-primary:not(:disabled):focus,
+.btn-outline-primary:not(:disabled).focus,
+.btn-outline-primary:not(:disabled):active,
+.btn-outline-primary:not(:disabled).active,
+.btn-outline-primary:not(.disabled):hover,
+.btn-outline-primary:not(.disabled).hover,
+.btn-outline-primary:not(.disabled):focus,
+.btn-outline-primary:not(.disabled).focus,
+.btn-outline-primary:not(.disabled):active,
+.btn-outline-primary:not(.disabled).active {
+    background-color: rgba(0, 182, 62, 0.2);
+    color: #00b63e;
+}
