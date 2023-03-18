@@ -69,6 +69,7 @@ $border-radius: 36px;
 $btn-border-radius-sm: 36px;
 
 // font size
+$font-family-inter: "Inter", sans-serif;
 $font-size-base: 1rem;
 $h1-font-size: $font-size-base * 4.8;
 $h2-font-size: $font-size-base * 4;
@@ -83,16 +84,40 @@ $font-size-lg: $font-size-base * 1.5;
 $dodgerBlue-text: $dodgerBlue;
 $dodgerBlue-text-emphasis: $dodgerBlue;
 
-// btn color
-$btn-link-hover-color: $green;
-$btn-link-color: $green;
-$btn-link-hover-color: $green;
-$btn-link-disabled-color: $green;
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 2.6,
+);
+
+// navbar
+$nav-link-padding-y: $spacer * 0.6;
+$nav-link-font-weight: 600;
+$navbar-light-color: $black;
+$navbar-nav-link-padding-x: $spacer * 1.6;
+$navbar-padding-y: 0;
+$navbar-padding-x: 0;
 
 // btn
-$input-btn-padding-y: 6.5px;
-$input-btn-padding-x: 16px;
-$input-btn-padding-y-sm: 0.65rem;
+$input-btn-font-family: $font-family-inter;
+$input-btn-padding-x: 1.6rem;
+$input-btn-padding-y: 0.6rem;
+$btn-font-size: 1.5rem;
+$btn-font-weight: 600;
+
+// $btn-link-hover-color: $green;
+// $btn-link-color: $green;
+// $btn-link-hover-color: $green;
+// $btn-link-disabled-color: $green;
+
+// btn
+
+$input-btn-padding-y-sm: 0.6rem;
 $input-btn-padding-x-sm: 1.6rem;
 $btn-border-width: 2px;
 $input-btn-border-width: 1.5px;
@@ -102,16 +127,7 @@ $body-color: $white;
 // btn-font
 $btn-font-size-sm: $font-size-base * 1.5;
 // $btn-font-size-lg: $input-btn-font-size-lg !default;
-$spacer: 1rem;
-$spacers: (
-    0: 0,
-    1: $spacer * 0.25,
-    2: $spacer * 0.5,
-    3: $spacer,
-    4: $spacer * 1.5,
-    5: $spacer * 3,
-    6: $spacer * 5.6,
-);
+
 // css grid
 $enable-cssgrid: true;
 
@@ -121,50 +137,9 @@ html {
     font-size: 62.5%;
 }
 body {
-    font-size: 1.6rem;
-    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-family: $font-family-inter;
 }
 a {
     text-decoration: none;
-}
-.btn-primary {
-    background-color: #00b63e;
-    color: #fff;
-}
-
-.btn-primary:not(:disabled):hover,
-.btn-primary:not(:disabled).hover,
-.btn-primary:not(:disabled):focus,
-.btn-primary:not(:disabled).focus,
-.btn-primary:not(:disabled):active,
-.btn-primary:not(:disabled).active,
-.btn-primary:not(.disabled):hover,
-.btn-primary:not(.disabled).hover,
-.btn-primary:not(.disabled):focus,
-.btn-primary:not(.disabled).focus,
-.btn-primary:not(.disabled):active,
-.btn-primary:not(.disabled).active {
-    background-color: #008e30;
-    border-color: #008e30;
-    color: #fff;
-}
-
-.btn-outline-primary {
-    background-color: #fff;
-}
-
-.btn-outline-primary:not(:disabled):hover,
-.btn-outline-primary:not(:disabled).hover,
-.btn-outline-primary:not(:disabled):focus,
-.btn-outline-primary:not(:disabled).focus,
-.btn-outline-primary:not(:disabled):active,
-.btn-outline-primary:not(:disabled).active,
-.btn-outline-primary:not(.disabled):hover,
-.btn-outline-primary:not(.disabled).hover,
-.btn-outline-primary:not(.disabled):focus,
-.btn-outline-primary:not(.disabled).focus,
-.btn-outline-primary:not(.disabled):active,
-.btn-outline-primary:not(.disabled).active {
-    background-color: rgba(0, 182, 62, 0.2);
-    color: #00b63e;
 }

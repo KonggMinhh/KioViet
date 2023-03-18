@@ -1,0 +1,48 @@
+.btn {
+    // --bs-btn-color: #00b63e;
+    --bs-btn-hover-color: #00b63e;
+    --bs-btn-active-color: #00b63e;
+    --bs-btn-hover-bg: rgba(0, 182, 62, 0.2);
+    & + & {
+        margin-left: 8px;
+    }
+    &-primary {
+        background-color: #00b63e;
+        color: #fff;
+        &:not(:disabled):hover,
+        &:not(:disabled).hover,
+        &:not(:disabled):focus,
+        &:not(:disabled).focus,
+        &:not(:disabled):active,
+        &:not(:disabled).active,
+        &:not(.disabled):hover,
+        &:not(.disabled).hover,
+        &:not(.disabled):focus,
+        &:not(.disabled).focus,
+        &:not(.disabled):active,
+        &:not(.disabled).active {
+            background-color: #008e30;
+            border-color: #008e30;
+            color: #fff;
+        }
+    }
+    &-outline-primary {
+        background-color: #fff;
+    }
+
+    &-outline-primary:not(:disabled):hover,
+    &-outline-primary:not(:disabled).hover,
+    &-outline-primary:not(:disabled):focus,
+    &-outline-primary:not(:disabled).focus,
+    &-outline-primary:not(:disabled):active,
+    &-outline-primary:not(:disabled).active,
+    &-outline-primary:not(.disabled):hover,
+    &-outline-primary:not(.disabled).hover,
+    &-outline-primary:not(.disabled):focus,
+    &-outline-primary:not(.disabled).focus,
+    &-outline-primary:not(.disabled):active,
+    &-outline-primary:not(.disabled).active {
+        background-color: rgba(0, 182, 62, 0.2);
+        color: #00b63e;
+    }
+}
