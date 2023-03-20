@@ -13542,4 +13542,37 @@ a {
   margin-left: 10px;
 }
 
+.customers {
+  padding: 32px 0 64px 0;
+}
+.customers__heading {
+  color: #002146;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+.customers-item {
+  display: flex;
+  gap: 16px;
+  margin-right: 30px;
+  margin-bottom: 44px;
+}
+.customers__title {
+  color: #002146;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 27px;
+  margin-top: 4px;
+}
+.customers__desc {
+  color: #667f9a;
+  margin: 0;
+}
+.customers__btn {
+  background-color: #ffffff;
+  color: #00b63e;
+}
+
 /*# sourceMappingURL=styles.css.map */
