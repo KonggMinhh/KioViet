@@ -13610,7 +13610,7 @@ a {
   font-weight: 600;
   font-size: 1.8rem;
   line-height: 27px;
-  margin-top: 4px;
+  margin-bottom: 4px;
 }
 .customers__desc {
   color: #667f9a;
@@ -13746,6 +13746,44 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.support {
+  background: #f2f4f6;
+  padding: 56px 0;
+}
+.support__heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #002146;
+  margin-bottom: 16px;
+}
+.support-btn {
+  display: flex;
+}
+.support-list {
+  margin-top: 30px;
+}
+.support-item {
+  flex: 1;
+  padding: 24px 20px 42px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.support-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.support__title {
+  font-weight: 600;
+  color: #002146;
+  margin: 0 0 0 8px;
+}
+.support-info {
+  color: #002146;
+  font-size: 1.4rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
