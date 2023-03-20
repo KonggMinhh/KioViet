@@ -60,3 +60,9 @@
     color: #fff;
     border: 2px solid #99a9bc;
 }
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 3);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
