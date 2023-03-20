@@ -1,4 +1,5 @@
 .career {
+    // Heading
     background: #f2fbf5;
     padding: 80px 99px;
     &__heading {
@@ -7,5 +8,82 @@
         text-align: center;
         margin: 0 auto;
         line-height: 1.5;
+    }
+    // Items
+    &__item {
+        display: flex;
+        padding: 12px 8px;
+        text-align: center;
+        width: 20%;
+        &-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            padding: 8px 16px;
+            &:hover {
+                background: #ffffff;
+                box-shadow: 0px 9px 32px rgba(0, 0, 0, 0.06);
+                border-radius: 10px;
+            }
+        }
+    }
+    &-img__brand {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        background: #ccf0d8;
+        border-radius: 50%;
+        margin-bottom: 4px;
+    }
+    &-item__desc {
+        color: $black;
+        margin: 0;
+        line-height: 1.5;
+    }
+    // CTA
+    &__reg {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        display: inline-block;
+        margin-top: 56px;
+        border-radius: 50px;
+        background: #ccf0d8;
+    }
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &-reg__title {
+        color: $black;
+        margin: 0;
+        font-weight: 600;
+        line-height: 27px;
+        font-size: 1.8rem;
+        padding: 17px 48px 17px 39px;
+    }
+    &-sign {
+        padding: 10px 32px 10px 10px;
+        display: flex;
+        align-items: center;
+    }
+    &__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 8px;
+    }
+    &-reg-desc {
+        font-weight: 600;
+        line-height: 27px;
     }
 }

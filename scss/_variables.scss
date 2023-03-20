@@ -63,10 +63,13 @@ $theme-colors: (
     "warning": $warning,
     "danger": $danger,
 );
+// padding container
+$grid-gutter-width: 0;
+
 // Border
+
 $border-color: $green;
-$border-radius: 36px;
-$btn-border-radius-sm: 36px;
+$border-radius: 3.6rem;
 
 // font size
 $font-family-inter: "Inter", sans-serif;
@@ -93,6 +96,8 @@ $spacers: (
     4: $spacer * 1.5,
     5: $spacer * 3,
     6: $spacer * 2.6,
+    7: $spacer * 2.5,
+    8: $spacer * 5.6,
 );
 
 // navbar
@@ -117,8 +122,8 @@ $btn-font-weight: 600;
 
 // btn
 
-$input-btn-padding-y-sm: 0.6rem;
-$input-btn-padding-x-sm: 1.6rem;
+$input-btn-padding-y-sm: 1.7rem;
+$input-btn-padding-x-sm: 3.2rem;
 $btn-border-width: 2px;
 $input-btn-border-width: 1.5px;
 

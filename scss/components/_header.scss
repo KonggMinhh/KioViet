@@ -32,20 +32,16 @@
 
 // slider
 .slider {
+    position: relative;
     display: flex;
     align-items: center;
-    position: relative;
-    margin-top: 67.5px;
-    height: calc(100vh - 67.5px);
+    margin-top: 68px;
+    height: calc(100vh - 68px);
     background: url(../../assets/img/slider.png) top center / cover no-repeat;
-    &__container {
-        display: flex;
-        align-items: center;
-    }
     &__info {
         position: absolute;
         top: 50%;
-        transform: translateY(-70%);
+        transform: translateY(-80%);
         left: 83px;
     }
     &__heading {
@@ -59,29 +55,13 @@
     &__desc {
         font-weight: 600;
         font-size: 1.8rem;
-        line-height: 1.5;
+        line-height: 27px;
     }
-    &__signup {
-        padding: 16.5px 32px;
-        font-size: 1.8rem;
-        margin-right: 16px;
-    }
-    &__discover {
-        position: relative;
-        padding: 16.5px 32px 16.5px 16.5px;
-        background-color: transparent;
-        color: #fff;
-        border: solid 1.6px #99a9bc;
-        &:hover {
-            background-color: rgba(153, 169, 188, 0.2);
-            border: solid 1.6px #99a9bc;
-            color: #fff;
-        }
-    }
+
     &__text {
-        margin-left: 40px;
+        font-weight: 600;
+        margin-left: 10px;
         font-size: 1.8rem;
-        line-height: 1.5;
     }
     &__wrap {
         position: absolute;
@@ -90,12 +70,23 @@
         top: 70%;
     }
     &__cta {
+        display: flex;
+        align-items: center;
         margin-right: 40px;
+    }
+    &__discover {
+        display: flex;
+        align-items: center;
+        padding: 10px 32px 10px 10px;
+        &:hover {
+            background-color: rgba(153, 169, 188, 0.2);
+            border: solid 1.6px #99a9bc;
+        }
     }
     &__quantity-user {
         font-weight: 700;
-        margin: 0 1.6rem 0 1rem;
-        color: #00b63e;
+        margin: 0 16px 0 10px;
+        color: $green;
         line-height: 1.2;
     }
     &__total-user {
@@ -110,29 +101,15 @@
         }
     }
 }
-.icon-play::before {
-    width: 4rem;
-    height: 4rem;
-    min-width: 4rem;
-    font-size: 16px;
-    line-height: 4rem;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    content: "";
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.15);
-    transform: translateY(-50%);
-    -webkit-border-radius: 50%;
+.img-video {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
-    background-clip: padding-box;
-}
-.img-play {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 25px;
+    min-width: 4rem;
+    background-color: rgba(255, 255, 255, 0.15);
 }
 .img-arrow {
     min-width: 44px;
