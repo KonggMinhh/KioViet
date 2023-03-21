@@ -13921,4 +13921,28 @@ a {
   margin-right: 8px;
 }
 
+@media (max-width: 575.98px) {
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column-reverse;
+  }
+  .footer-text, .footer-social {
+    margin: 0;
+  }
+  .footer__year, .footer__times {
+    display: none;
+  }
+  .footer__times {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    margin-right: 0;
+  }
+  .img-pro {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
