@@ -13330,6 +13330,40 @@ a {
   background-color: rgba(0, 182, 62, 0.14);
 }
 
+.navbar-nav {
+  position: relative;
+}
+
+.nav-item:hover .news-menu {
+  display: block;
+}
+
+.news-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  padding: 16px 0px;
+  border-radius: 1.2rem;
+  color: #002146;
+  background-color: #ffffff;
+  list-style: none;
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.16);
+  min-width: 304px;
+}
+.news-item {
+  padding: 0 16px 2px;
+}
+.news-link {
+  font-weight: 500;
+  border-radius: 3.2rem;
+  color: #002146;
+  display: block;
+  padding: 11px 16px;
+}
+.news-link:hover {
+  background-color: rgba(0, 182, 62, 0.2);
+}
+
 .slider {
   position: relative;
   display: flex;
