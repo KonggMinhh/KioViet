@@ -1,6 +1,5 @@
 // Header-top
 .header {
-    display: none;
     &-logo {
         max-height: 44px;
     }
@@ -15,6 +14,11 @@
         display: flex;
         align-items: center;
         z-index: 999;
+    }
+    @include media-breakpoint-down(xl) {
+        .header-top {
+            padding: 15px 83px;
+        }
     }
 }
 .nav {
@@ -119,4 +123,38 @@
 .text-banner {
     line-height: 1.2;
     margin-left: 1rem;
+}
+@include media-breakpoint-down(xl) {
+    .slider__wrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider__cta {
+        margin-right: 0;
+    }
+    .slider__total {
+        margin-top: 20px;
+    }
+}
+@include media-breakpoint-down(sm) {
+    .slider__discover {
+        display: none;
+    }
+    .slider__info {
+        left: 0;
+    }
+    .slider__desc {
+        display: none;
+    }
+    .slider__wrap {
+        left: 0;
+        top: 60%;
+    }
+    .slider__heading {
+        font-size: 3.2rem;
+        text-align: center;
+        line-height: 4.2rem;
+        margin: 2.4rem 0;
+    }
 }

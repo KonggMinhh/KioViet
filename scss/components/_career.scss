@@ -3,18 +3,18 @@
     background: #f2fbf5;
     padding: 80px 0;
     &__heading {
-        width: 536px;
+        max-width: 536px;
         display: flex;
         text-align: center;
         margin: 0 auto;
         line-height: 1.5;
     }
+
     // Items
     &__item {
         display: flex;
         padding: 12px 8px;
         text-align: center;
-        width: 20%;
         &-content {
             display: flex;
             flex-direction: column;
@@ -85,5 +85,25 @@
     &-reg-desc {
         font-weight: 600;
         line-height: 27px;
+    }
+}
+@include media-breakpoint-up(xl) {
+    .career__item {
+        flex-basis: 20%;
+    }
+}
+@include media-breakpoint-down(sm) {
+    .career-reg__title,
+    .career-sign {
+        padding: 10px 6px;
+        font-size: 1.5rem;
+        line-height: 22px;
+    }
+    .career-reg-desc {
+        font-size: 1rem;
+    }
+    .career__img {
+        width: 24px;
+        height: 24px;
     }
 }

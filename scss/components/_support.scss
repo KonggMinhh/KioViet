@@ -35,3 +35,8 @@
         font-size: 1.4rem;
     }
 }
+@include media-breakpoint-down(lg) {
+    .support-list > [class*="col-"] {
+        padding-bottom: 30px;
+    }
+}
