@@ -104,80 +104,538 @@
                         alt="KioViet"
                     />
                 </a>
-                <!-- Navbar -->
-                <nav
-                    class="navbar ms-auto navbar-expand-xl"
-                    data-bs-theme="light"
-                >
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#!">Sản phẩm</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Giải pháp</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Khách hàng</a>
-                            <ul class="news-menu">
-                                <li class="news-item">
-                                    <a href="#!" class="news-link"
-                                        >Khách hàng KiotViet</a
-                                    >
-                                </li>
-                                <li class="news-item">
-                                    <a href="#!" class="news-link"
-                                        >Giới thiệu khách hàng</a
-                                    >
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Hỗ trợ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Tin tức</a>
-                            <ul class="news-menu">
-                                <li class="news-item">
-                                    <a href="#!" class="news-link">Tin tức</a>
-                                </li>
-                                <li class="news-item">
-                                    <a href="#!" class="news-link"
-                                        >Kinh nghiệm kinh doanh</a
-                                    >
-                                </li>
-                                <li class="news-item">
-                                    <a href="#!" class="news-link"
-                                        >Câu chuyện thành công</a
-                                    >
-                                </li>
-                                <li class="news-item">
-                                    <a href="#!" class="news-link">Mẹo hay</a>
-                                </li>
-                                <li class="news-item">
-                                    <a href="#!" class="news-link"
-                                        >Khuyến mãi</a
-                                    >
-                                </li>
-                                <li class="news-item">
-                                    <a href="#!" class="news-link"
-                                        >Tin tức về KiotViet</a
-                                    >
-                                </li>
-                                <li class="news-item">
-                                    <a href="#!" class="news-link"
-                                        >Thông tin cập nhật KiotViet</a
-                                    >
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Liên hệ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Về KiotViet</a>
-                        </li>
-                    </ul>
-                </nav>
+                <!-- Nav -->
+                <div class="navbar navbar-expand-xl ms-auto navbar-dark">
+                    <!-- Button -->
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Navigation -->
+                    <nav
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#!">Sản phẩm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="#"
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Giải pháp
+                                </a>
+                                <div
+                                    class="dropdown-menu product-menu"
+                                    aria-labelledby="navbarDropdown"
+                                >
+                                    <div class="product-wrap">
+                                        <div class="row">
+                                            <div class="col-9 product-left">
+                                                <h4 class="product__heading">
+                                                    Giải pháp ngành hàng
+                                                </h4>
+                                                <div
+                                                    class="row product-solution"
+                                                >
+                                                    <!-- Product item 1 -->
+                                                    <div class="col-6">
+                                                        <div
+                                                            class="product-list"
+                                                        >
+                                                            <div
+                                                                class="product-item"
+                                                            >
+                                                                <a
+                                                                    href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Thời
+                                                                    trang</a
+                                                                >
+                                                            </div>
+                                                            <div
+                                                                class="product-item"
+                                                            >
+                                                                <a
+                                                                    href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Điện thoại
+                                                                    & Điện
+                                                                    máy</a
+                                                                >
+                                                            </div>
+                                                            <div
+                                                                class="product-item"
+                                                            >
+                                                                <a
+                                                                    href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Nông sản &
+                                                                    Thực phẩm</a
+                                                                >
+                                                            </div>
+                                                            <div
+                                                                class="product-item"
+                                                            >
+                                                                <a
+                                                                    href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Xe, Máy móc
+                                                                    & Linh kiện
+                                                                    sửa chữa</a
+                                                                >
+                                                            </div>
+                                                            <div
+                                                                class="product-item"
+                                                            >
+                                                                <a
+                                                                    href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Sách & Văn
+                                                                    phòng
+                                                                    phẩm</a
+                                                                >
+                                                            </div>
+                                                            <div
+                                                                class="product-item"
+                                                            >
+                                                                <a
+                                                                    href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Bar - Cafe,
+                                                                    Nhà hàng
+                                                                    Karaoke &
+                                                                    Billiards</a
+                                                                >
+                                                                <a href="#!" class="product-label">NEW</a>
+                                                            </div>
+                                                            <div
+                                                                class="product-item"
+                                                            >
+                                                                <a
+                                                                    href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Mỹ phẩm</a
+                                                                >
+                                                            </div>
+                                                            <div
+                                                                class="product-item"
+                                                            >
+                                                                <a
+                                                                    href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Nhà
+                                                                    thuốc</a
+                                                                >
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Product item 2 -->
+                                                    <div class="col-6">
+                                                        <div
+                                                            class="product-list"
+                                                        >
+                                                            <div
+                                                                
+                                                                class="product-item"
+                                                            >
+                                                                <a href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Nội thất & Gia dụng</a
+                                                                >
+                                                            </div>
+                                                            <div
+                                                                
+                                                                class="product-item"
+                                                            >
+                                                                <a href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Hoa & Quà tặng</a
+                                                                >
+                                                            </div>
+                                                            <div
+                                                                
+                                                                class="product-item"
+                                                            >
+                                                                <a href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Tạp hóa & Siêu thị mini</a
+                                                                >
+                                                            </div>
+                                                            <div
+                                                                
+                                                                class="product-item"
+                                                            >
+                                                                <a href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Hair Salon, Nails, Massage & Spa</a
+                                                                >
+                                                                <a href="#!" class="product-label">NEW</a>
+                                                            </div>
+                                                            <div
+                                                                
+                                                                class="product-item"
+                                                            >
+                                                                <a href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Vật liệu xây dựng</a
+                                                                >
+                                                            </div>
+                                                            <div
+                                                                
+                                                                class="product-item"
+                                                            >
+                                                                <a href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Mẹ & Bé</a
+                                                                >
+                                                            </div>
+                                                            <div
+                                                                
+                                                                class="product-item"
+                                                            >
+                                                                <a href="#!"
+                                                                    class="career-img__brand"
+                                                                >
+                                                                    <img
+                                                                        class="icon-career"
+                                                                        src="./assets/icons/36.svg"
+                                                                        alt="icon"
+                                                                    />
+                                                                </a>
+                                                                <a
+                                                                    class="product-link"
+                                                                    href="#!"
+                                                                    >Ngành hàng khác</a
+                                                                >
+                                                            </div>
+                                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-3 product-right">
+                                                <h4 class="product__heading">
+                                                    Giải pháp tiện ích
+                                                </h4>
+                                                <div class="product-list">
+                                                    <!-- Item 1 -->
+                                                    <div
+                                                    
+                                                        class="product-item"
+                                                    >
+                                                        <a href="#!" class="product-img">
+                                                            <img
+                                                                class="icon-career"
+                                                                src="./assets/icons/swap.svg"
+                                                                alt="icon"
+                                                            />
+                                                        </a>
+                                                        <a
+                                                            class="product-link"
+                                                            href="#!"
+                                                            >Đồng bộ sàn TMĐT</a
+                                                        >
+                                                    </div>
+                                                    <!-- Item 2 -->
+                                                    <div
+                                                        
+                                                        class="product-item"
+                                                    >
+                                                        <a href="#!" class="product-img">
+                                                            <img
+                                                                class="icon-career"
+                                                                src="./assets/icons/web.svg"
+                                                                alt="icon"
+                                                            />
+                                                        </a>
+                                                        <a
+                                                            class="product-link"
+                                                            href="#!"
+                                                            >Tạo website trong 5
+                                                            phút</a
+                                                        >
+                                                    </div>
+                                                    <!-- Item 3 -->
+                                                    <div
+                                                        
+                                                        class="product-item"
+                                                    >
+                                                        <a href="#!" class="product-img">
+                                                            <img
+                                                                class="icon-career"
+                                                                src="./assets/icons/car.svg"
+                                                                alt="icon"
+                                                            />
+                                                        </a>
+                                                        <a
+                                                            class="product-link"
+                                                            href="#!"
+                                                            >Vận chuyển dễ
+                                                            dàng</a
+                                                        >
+                                                    </div>
+                                                    <!-- Item 4 -->
+                                                    <div
+                                                        
+                                                        class="product-item"
+                                                    >
+                                                        <a href="#!" class="product-img">
+                                                            <img
+                                                                class="icon-career"
+                                                                src="./assets/icons/fb-blue.svg"
+                                                                alt="icon"
+                                                            />
+                                                        </a>
+                                                        <a
+                                                            class="product-link"
+                                                            href="#!"
+                                                            >Liên kết bán hàng
+                                                            Facebook</a
+                                                        >
+                                                    </div>
+                                                    <!-- Item 5 -->
+                                                    <div
+                                                        
+                                                        class="product-item"
+                                                    >
+                                                        <a href="#!" class="product-img">
+                                                            <img
+                                                                class="icon-career"
+                                                                src="./assets/icons/device.svg"
+                                                                alt="icon"
+                                                            />
+                                                        </a>
+                                                        <a
+                                                            class="product-link"
+                                                            href="#!"
+                                                            >Thiết bị bán
+                                                            hàng</a
+                                                        >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Khách hàng</a>
+                                <ul class="news-menu">
+                                    <li class="news-item">
+                                        <a href="#!" class="news-link"
+                                            >Khách hàng KiotViet</a
+                                        >
+                                    </li>
+                                    <li class="news-item">
+                                        <a href="#!" class="news-link"
+                                            >Giới thiệu khách hàng</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Phí dịch vụ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hỗ trợ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tin tức</a>
+                                <ul class="news-menu">
+                                    <li class="news-item">
+                                        <a href="#!" class="news-link">Tin tức</a>
+                                    </li>
+                                    <li class="news-item">
+                                        <a href="#!" class="news-link"
+                                            >Kinh nghiệm kinh doanh</a
+                                        >
+                                    </li>
+                                    <li class="news-item">
+                                        <a href="#!" class="news-link"
+                                            >Câu chuyện thành công</a
+                                        >
+                                    </li>
+                                    <li class="news-item">
+                                        <a href="#!" class="news-link">Mẹo hay</a>
+                                    </li>
+                                    <li class="news-item">
+                                        <a href="#!" class="news-link"
+                                            >Khuyến mãi</a
+                                        >
+                                    </li>
+                                    <li class="news-item">
+                                        <a href="#!" class="news-link"
+                                            >Tin tức về KiotViet</a
+                                        >
+                                    </li>
+                                    <li class="news-item">
+                                        <a href="#!" class="news-link"
+                                            >Thông tin cập nhật KiotViet</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Về KiotViet</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
                 <!-- CTA -->
                 <div class="header__actions ms-6">
                     <button type="button" class="btn btn-outline-primary">

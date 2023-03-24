@@ -1,1 +1,20 @@
-
+@mixin career-img__brand($width, $height) {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: $width;
+    height: $height;
+    background: #ccf0d8;
+    border-radius: 50%;
+    margin-bottom: 4px;
+}
+@mixin product-img($width, $height) {
+    width: $width;
+    height: $height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 112, 244, 0.1);
+    border-radius: 8px;
+}
