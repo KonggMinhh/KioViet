@@ -14097,6 +14097,9 @@ a {
   text-align: center;
   margin-bottom: 32px;
 }
+.news .news-item {
+  padding: 0;
+}
 .news-list {
   display: flex;
   justify-content: space-between;
