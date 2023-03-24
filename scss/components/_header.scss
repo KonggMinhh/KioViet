@@ -150,7 +150,7 @@
         display: none;
         border-radius: 12px;
         top: 100%;
-        left: -35%;
+        left: -50%;
         min-width: 108.5rem;
         position: absolute;
         background-color: $white;
@@ -184,7 +184,37 @@
         }
     }
 }
-
+// Close menu
+.offcanvas-header {
+    margin: 19px 32px 0;
+    padding: 0 0 17px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.offcanvas-body {
+    padding: 0 32px;
+    & .nav-item {
+        padding: 0 0 10px 0;
+        &:nth-child(8) {
+            margin: 20px 0 25px 0;
+            padding: 0;
+        }
+        & .btn {
+            width: 100%;
+            padding: 1rem 3.2rem;
+        }
+    }
+    & .nav-link {
+        font-size: 1.8rem;
+        padding: 4px 16px 4px 0;
+        &:hover {
+            color: $black;
+            background-color: transparent;
+        }
+    }
+}
+.navbar-header-close {
+    padding-top: 31px;
+}
 // slider
 .slider {
     position: relative;

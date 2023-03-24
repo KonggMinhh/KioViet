@@ -4425,7 +4425,7 @@ textarea.form-control-lg {
   --bs-navbar-brand-font-size: 2.4rem;
   --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
   --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
-  --bs-navbar-nav-link-padding-x: 1.6rem;
+  --bs-navbar-nav-link-padding-x: 1.2rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
   --bs-navbar-toggler-font-size: 2.4rem;
@@ -6755,7 +6755,7 @@ textarea.form-control-lg {
   --bs-offcanvas-height: 30vh;
   --bs-offcanvas-padding-x: 1rem;
   --bs-offcanvas-padding-y: 1rem;
-  --bs-offcanvas-color: var(--bs-body-color);
+  --bs-offcanvas-color: #002146;
   --bs-offcanvas-bg: var(--bs-body-bg);
   --bs-offcanvas-border-width: var(--bs-border-width);
   --bs-offcanvas-border-color: var(--bs-border-color-translucent);
@@ -13455,7 +13455,7 @@ a {
   display: none;
   border-radius: 12px;
   top: 100%;
-  left: -35%;
+  left: -50%;
   min-width: 108.5rem;
   position: absolute;
   background-color: #ffffff;
@@ -13485,6 +13485,39 @@ a {
 }
 .news-link:hover {
   background-color: rgba(0, 182, 62, 0.2);
+}
+
+.offcanvas-header {
+  margin: 19px 32px 0;
+  padding: 0 0 17px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.offcanvas-body {
+  padding: 0 32px;
+}
+.offcanvas-body .nav-item {
+  padding: 0 0 10px 0;
+}
+.offcanvas-body .nav-item:nth-child(8) {
+  margin: 20px 0 25px 0;
+  padding: 0;
+}
+.offcanvas-body .nav-item .btn {
+  width: 100%;
+  padding: 1rem 3.2rem;
+}
+.offcanvas-body .nav-link {
+  font-size: 1.8rem;
+  padding: 4px 16px 4px 0;
+}
+.offcanvas-body .nav-link:hover {
+  color: #002146;
+  background-color: transparent;
+}
+
+.navbar-header-close {
+  padding-top: 31px;
 }
 
 .slider {
