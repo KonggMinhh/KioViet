@@ -145,3 +145,8 @@
         display: none;
     }
 }
+@include media-breakpoint-down(sm) {
+    .footer {
+        background-attachment: fixed;
+    }
+}

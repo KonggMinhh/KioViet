@@ -13430,6 +13430,7 @@ a {
 }
 .product-item .career-img__brand {
   display: flex;
+  flex-shrink: 0;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
@@ -13563,6 +13564,9 @@ a {
   align-items: center;
   margin-right: 40px;
 }
+.slider__btn {
+  margin-right: 25px;
+}
 .slider__discover {
   display: flex;
   align-items: center;
@@ -13599,6 +13603,11 @@ a {
   background-color: rgba(255, 255, 255, 0.15);
 }
 
+.img-play {
+  position: relative;
+  left: 2px;
+}
+
 .img-arrow {
   min-width: 44px;
   max-height: 22px;
@@ -13607,6 +13616,10 @@ a {
 .text-banner {
   line-height: 1.2;
   margin-left: 1rem;
+}
+
+.offcanvas.offcanvas-end {
+  border: 0;
 }
 
 @media (max-width: 1199.98px) {
@@ -13619,13 +13632,25 @@ a {
     margin-right: 0;
   }
   .slider__total {
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .header__actions {
     display: none;
   }
 }
 @media (max-width: 575.98px) {
+  .slider__total {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .slider__total-user {
+    flex: 1;
+    margin-right: 10px;
+  }
+  .slider__total-register {
+    flex: 1;
+    margin-left: 10px;
+  }
   .slider__discover {
     display: none;
   }
@@ -13645,12 +13670,19 @@ a {
     line-height: 4.2rem;
     margin: 2.4rem 0;
   }
+  .slider__quantity-user {
+    display: block;
+    margin: 0 0 10px 0;
+  }
+  .slider__btn {
+    margin-right: 0;
+  }
+  .img-arrow {
+    display: none;
+  }
 }
 .benefit {
   padding: 94px 0px;
-}
-.benefit__list {
-  column-gap: 32px;
 }
 .benefit-item__icon {
   width: 72px;
@@ -13676,6 +13708,11 @@ a {
   font-size: 1.5rem;
 }
 
+@media (max-width: 575.98px) {
+  .benefit-item {
+    margin-bottom: 30px;
+  }
+}
 .career {
   background: #f2fbf5;
   padding: 80px 0;
@@ -13781,6 +13818,9 @@ a {
     width: 24px;
     height: 24px;
   }
+  .career-item__desc {
+    --line-clamp: 1;
+  }
 }
 .solution {
   padding: 80px 0;
@@ -13791,6 +13831,11 @@ a {
   font-size: 3rem;
   color: #002146;
   margin-bottom: 56px;
+}
+.solution__thumb {
+  width: 340px;
+  height: 246px;
+  object-fit: cover;
 }
 .solution-item {
   display: flex;
@@ -13891,6 +13936,7 @@ a {
     display: flex;
     justify-content: center;
     border-radius: 16px 16px 0 0;
+    overflow: hidden;
   }
   .solution__content {
     border-radius: 0 0 16px 16px;
@@ -14312,6 +14358,11 @@ a {
   }
   .img-pro {
     display: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer {
+    background-attachment: fixed;
   }
 }
 

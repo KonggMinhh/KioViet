@@ -7,6 +7,11 @@
         color: $black;
         margin-bottom: 56px;
     }
+    &__thumb {
+        width: 340px;
+        height: 246px;
+        object-fit: cover;
+    }
     &-item {
         display: flex;
         align-items: center;
@@ -111,6 +116,7 @@
             display: flex;
             justify-content: center;
             border-radius: 16px 16px 0 0;
+            overflow: hidden;
         }
         &__content {
             border-radius: 0 0 16px 16px;
@@ -121,5 +127,6 @@
         &-item:nth-child(even) .solution__content {
             border-radius: 0 0 16px 16px;
         }
+        
     }
 }

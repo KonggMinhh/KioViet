@@ -1,8 +1,5 @@
 .benefit {
     padding: 94px 0px;
-    &__list {
-        column-gap: 32px;
-    }
     &-item__icon {
         width: 72px;
         height: 72px;
@@ -25,5 +22,10 @@
     }
     &-item__desc {
         font-size: 1.5rem;
+    }
+}
+@include media-breakpoint-down(sm) {
+    .benefit-item {
+        margin-bottom: 30px;
     }
 }

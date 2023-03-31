@@ -1,5 +1,6 @@
 @mixin career-img__brand($width, $height) {
     display: flex;
+    flex-shrink: 0;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
